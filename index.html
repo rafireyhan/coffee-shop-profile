@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cimahi Coffee Shop</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/8230/8230211.png">
+</head>
+<body>
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10 text-white">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <a class="lg:ml-20 px-6 py-6 flex items-center"> <!-- Modified -->
+                    <img id="logo" src="https://cdn-icons-png.flaticon.com/512/8230/8230211.png" class="mr-3 h-6 sm:h-9">
+                    <span class="text-black text-xl font-bold">Cimahi Coffee Shop</span>
+                </a>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left "></span>
+                    </button>
+                    
+                    <nav id="nav-menu" class="hidden text-black absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] font-semibold leading-7
+                    w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base py-2 mx-8 flex group-hover:text-primary">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#content" class="text-base py-2 mx-8 flex group-hover:text-primary">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#menu" class="text-base py-2 mx-8 flex group-hover:text-primary">Menu</a>
+                            </li>
+                            <li class="group">
+                                <a href="#location" class="text-base py-2 mx-8 flex group-hover:text-primary">Location</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base py-2 mx-8 flex group-hover:text-primary">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End-->
+
+    <!-- Hero Section Start -->
+    <section id=home class="bg-white dark:bg-gray-900">
+        <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+            <div class="lg:mt-0 lg:col-span-5 lg:flex">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/021/049/268/small_2x/3d-realistic-coffee-cup-coffee-cup-cartoon-free-png.png" alt="mockup">
+            </div>  
+            <div class="mr-auto place-self-center lg:col-span-7">
+                <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Cimahi Coffee Shop</h1>
+                <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">Di tengah gemerlapnya Cimahi, tersembunyi sebuah coffee shop yang menjadi tempat favorit untuk bersantai sambil menikmati aroma kopi yang memesona.</p>
+                <a href="#location" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-white rounded-lg bg-amber-900 hover:bg-amber-600 focus:ring-4">
+                    Location
+                    <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+                <a href="#contact" class="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                    Contact Us
+                </a> 
+            </div>
+                          
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Divider Section Start-->
+    <section>
+        <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+            <img src="https://www.foodandwine.com/thmb/DxvabCLnGGdlaZ4uQiZ4RVfdvO4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Coffee-FTX-BLOG0323-5262d6f9296f413fa645a1686999f43d.jpg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
+        </div>
+    </section>
+    <!-- Divider Section End -->
+
+    <!-- Content Section Start -->
+    <section id="content" class="bg-white dark:bg-gray-900">
+        <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+            <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Cimahi Coffee Shop: Kopi Berkualitas, Suasana Hangat.</h2>
+                <p class="mb-4">Menu yang disajikan di Cimahi Coffee Shop menampilkan beragam pilihan kopi dari berbagai daerah, mulai dari yang beraroma ringan hingga yang memiliki rasa yang kaya dan kompleks. </p>
+                <p>Para barista yang terampil dan berpengalaman di Cimahi Coffee Shop siap menghadirkan kopi yang sempurna sesuai dengan selera dan preferensi masing-masing pelanggan.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+                <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1">
+                <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2">
+            </div>
+        </div>
+    </section>
+    <!-- Content Section End -->
+
+    <!-- Divider Section Start-->
+    <section>
+        <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+            <img src="https://post.app/wp-content/uploads/2021/01/coffee-shop-1.jpeg" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center">
+        </div>
+    </section>
+    <!-- Divider Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu">
+        <div class="bg-white">
+            <div class="mx-auto max-w-2xl py-8 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+              <h2 class="text-2xl font-bold tracking-tight text-gray-900">Our Menu</h2>
+          
+              <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+                <div class="group relative">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="https://www.starbucks.co.id/storage/image/temporary/summernote_image_1648177502.jpg" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700 font-bold">
+                        <a href="#menu">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Caffè Latte
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">A caffè latte is simply a shot or two of bold, tasty espresso with fresh, sweet steamed milk over it.</p>
+                    </div>
+                    <p class="text-sm font-medium text-gray-900">Rp15.000</p>
+                  </div>
+                </div>
+          
+                <!-- More products... -->
+                <div class="group relative">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                      <img src="https://www.starbucks.co.id/storage/image/temporary/summernote_image_1648177603.jpg" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                      <div>
+                        <h3 class="text-sm text-gray-700 font-bold">
+                          <a href="#menu">
+                            <span aria-hidden="true" class="absolute inset-0"></span>
+                            Cappuccino
+                          </a>
+                        </h3>
+                        <p class="mt-1 text-sm text-gray-500">Espresso with steamed milk, topped with a deep layer of foam.</p>
+                      </div>
+                      <p class="text-sm font-medium text-gray-900">Rp25.000</p>
+                    </div>
+                </div>
+
+                <!-- More products... -->
+                <div class="group relative">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                      <img src="https://www.starbucks.co.id/storage/image/temporary/summernote_image_1648177734.jpg" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                      <div>
+                        <h3 class="text-sm text-gray-700 font-bold">
+                          <a href="#menu">
+                            <span aria-hidden="true" class="absolute inset-0"></span>
+                            Caffè Mocha
+                          </a>
+                        </h3>
+                        <p class="mt-1 text-sm text-gray-500">Espresso with bittersweet mocha sauce and steamed milk, topped with sweetened whipped cream. Delightful.</p>
+                      </div>
+                      <p class="text-sm font-medium text-gray-900">Rp25.000</p>
+                    </div>
+                </div>
+
+                <!-- More products... -->
+                <div class="group relative">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                      <img src="https://www.starbucks.co.id/storage/image/temporary/summernote_image_1648177837.jpg" class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                      <div>
+                        <h3 class="text-sm text-gray-700 font-bold">
+                          <a href="#menu">
+                            <span aria-hidden="true" class="absolute inset-0"></span>
+                            Caramel Macchiato
+                          </a>
+                        </h3>
+                        <p class="mt-1 text-sm text-gray-500">Espresso combined with vanilla-flavoured syrup, milk and caramel sauce over ice.</p>
+                      </div>
+                      <p class="text-sm font-medium text-gray-900">Rp30.000</p>
+                    </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Location Section Start -->
+    <section id="location">
+        <div class="bg-gray-50 py-6 sm:py-24">
+          <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl lg:text-center">
+              <p class="py-6 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Location</p>
+            </div>
+            <div class="relative w-full h-96">
+              <iframe class="absolute top-0 left-0 w-full h-full"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15864.762202311462!2d107.5303392!3d-6.877517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e45a50415f3b%3A0xa774da236ab68d3!2sJl.%20Pojok%20Sel.%20No.14%2C%20Setiamanah%2C%20Kec.%20Cimahi%20Tengah%2C%20Kota%20Cimahi%2C%20Jawa%20Barat%2040524!5e0!3m2!1sen!2sid!4v1648482801994!5m2!1sen!2sid"
+                  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+              </iframe>
+            </div>        
+          </div>
+        </div>
+    </section>
+    <!-- Location Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact">
+        <div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+            <img src="https://stories.uq.edu.au/research/2022/coffee-is-going-extinct/assets/wUb2t9rgAD/uq-research-coffee-cup-2560x1440.webp" style="filter: opacity(30%);" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center blur-sm">
+            <div class="mx-auto max-w-7xl px-6 lg:px-8">
+              <div class="mx-auto max-w-2xl lg:mx-0">
+                <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Contact us</h2>
+                <p class="mt-6 text-lg leading-8 text-white">
+                    Untuk pertanyaan lebih lanjut atau reservasi, jangan ragu untuk menghubungi kami di Cimahi Coffee Shop melalui:</p>
+              </div>
+              <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+                
+                <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+                  <div class="flex flex-col-reverse">
+                    <dt class="text-base leading-7 text-white">info@cimahicoffeeshop.com</dt>
+                    <dd class="text-2xl font-bold leading-9 tracking-tight text-white">Email</dd>
+                  </div>
+                  <div class="flex flex-col-reverse">
+                    <dt class="text-base leading-7 text-gray-300">+62 XXX-XXXX-XXXX</dt>
+                    <dd class="text-2xl font-bold leading-9 tracking-tight text-white">Telepon</dd>
+                  </div>
+                  <div class="flex flex-col-reverse">
+                    <dt class="text-base leading-7 text-gray-300">Jalan Raya Cimahi No. XX, Cimahi.</dt>
+                    <dd class="text-2xl font-bold leading-9 tracking-tight text-white">Alamat</dd>
+                  </div>
+                </dl>
+              </div>
+            </div>
+          </div>
+          
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="p-4 bg-gray-50 sm:p-6 dark:bg-gray-800">
+        <div class="mx-auto max-w-screen-xl">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <a href="#" class="flex items-center">
+                        <img src="https://cdn-icons-png.flaticon.com/512/8230/8230211.png" class="mr-3 h-8"/>
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Cimahi Coffee Shop</span>
+                    </a>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">About Us</h2>
+                        <ul class="text-gray-600 dark:text-gray-400">
+                            <li class="mb-1">
+                                <a href="#home" class="hover:underline">Home</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#content" class="hover:underline">About</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#menu" class="hover:underline">Menu</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#location" class="hover:underline">Location</a>
+                            </li>
+                            <li class="mb-1">
+                                <a href="#contact" class="hover:underline">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+            <div class="sm:flex sm:items-center sm:justify-between">
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024</a>. Created by Rafi Reyhan.
+                </span>
+                <div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
+                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
